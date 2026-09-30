@@ -1,31 +1,27 @@
 import Navbar from "./components/Navbar"
 import Main from "./components/Main"
-import Contact from "./components/Contact"
-import Skills from "./components/Skills"
-
-import Projects from "./components/Projects"
-import Certificate from "./components/Certificate"
-import ProfilePage from "./components/About"
+import About from "./components/About"
 import Education from "./components/Education"
+import Experience from "./components/Experience"
+import Skills from "./components/Skills"
+import Projects from "./components/Projects"
 import Work from "./components/Work"
-
-
+import Certificate from "./components/Certificate"
+import Contact from "./components/Contact"
 
 function App() {
-
-
     return (
         <>
         <Navbar/>
         <Main/>
-        <ProfilePage/>
+        <About/>
         <Education/>
+        <Experience/>
         <Skills/>
         <Projects/>
         <Work/>
         <Certificate/>
         <Contact/>
-
         </>
     )
 }
