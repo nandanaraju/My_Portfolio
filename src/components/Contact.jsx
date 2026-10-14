@@ -28,16 +28,7 @@ const contactInfo = [
     color: "text-yellow-400",
     bg: "bg-yellow-400/10",
     border: "border-yellow-400/20",
-  },
-  {
-    icon: <FaPhone className="w-5 h-5" />,
-    label: "Phone",
-    value: "+91 95392 51394",
-    href: "tel:+919539251394",
-    color: "text-green-400",
-    bg: "bg-green-400/10",
-    border: "border-green-400/20",
-  },
+  }
 ];
 
 const Contact = () => {
